@@ -1,0 +1,22 @@
+.special{
+            background-color: white;
+            color: black;
+            margin-left:70px;
+            margin-top:100px;
+            padding-top:20px;
+            padding-left:20px;
+            font-size:30px;
+            border-top-style:hidden;
+            border-right-style:hidden;
+            border-left-style:hidden;
+            outline:none;
+            border-bottom-style:"groove";
+            border-bottom: 5px solid red;
+            transition: width 0.5s ease-in-out;
+            width: 30%;
+
+        }
+
+.special:focus{
+                width: 50%;
+}
